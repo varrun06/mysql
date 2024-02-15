@@ -1,0 +1,17 @@
+SELECT * FROM TBL_DEPARTMENT;
+
+INSERT INTO TBL_DEPARTMENT VALUES (123, 'MECH', 'MECHANICAL');
+
+DELETE FROM TBL_DEPARTMENT WHERE DEPTID=123;
+INSERT INTO TBL_DEPARTMENT VALUES (712, 'VARRUN', 'MECHANICAL');
+DELETE FROM TBL_DEPARTMENT WHERE DEPTID=712;
+INSERT INTO TBL_DEPARTMENT VALUES (712, 'ME', 'MECHANICAL');
+SELECT * FROM TBL_DEPARTMENT;
+
+
+select a.id, a.name, a.address, b.name 
+from student_tbl a, tbl_department b 
+where a.studid = b.deptid and b.deptid = 712;
+
+select * from student_tbl where studid = 123;
+

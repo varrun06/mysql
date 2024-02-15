@@ -1,0 +1,14 @@
+use regular expression to validate the password
+one caps
+one special char
+anyone num
+min 8 digit
+
+third char has been caps
+more 2 special char mandatory
+num can not be more than 3
+min 8 to max 12 digit
+
+valid example
+@#T34vgj
+abG@1K23m invalid example
